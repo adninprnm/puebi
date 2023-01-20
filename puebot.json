@@ -1,0 +1,1016 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "hallo",
+          "hai",
+          "halo",
+          "hei",
+          "hi",
+          "hy",
+          "pagi",
+          "morning",
+          "siang",
+          "afternoon",
+          "sore",
+          "malam",
+          "bro",
+          "sis",
+          "kawan",
+          "admin"
+        ],
+        "responses": [
+          "Hai! Selamat datang di Puebot, silahkan pilih menu yang tersedia",
+          "Halo! Selamat datang di Puebot, silahkan pilih menu yang tersedia"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Dah",
+          "Dadah",
+          "Bye",
+          "Byee",
+          "Good bye",
+          "Selamat tinggal",
+          "Sampai jumpa",
+          "Bai",
+          "See you"
+        ],
+        "responses": [
+          "Bye!",
+          "Dadahh!",
+          "Good bye!",
+          "Dahh, semoga harimu menyenangkan yaa!",
+          "Sampai jumpa lagi!",
+          "See u! Senang bisa membantu"
+        ]
+      },
+      {
+        "tag": "terimakasih",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "Terima kasih",
+          "Makasih",
+          "Terima kasih banyak"
+        ],
+        "responses": [
+          "Dengan senang hati:)",
+          "Sama sama:)"
+        ]
+      },
+      {
+        "tag": "penjelasan_puebot",
+        "patterns": [
+          "Apa itu Puebot?",
+          "Apa itu puebot",
+          "apa itu puebot"
+        ],
+        "responses": [
+          "Puebot merupakan chatbot yang kami buat berguna untuk memudahkan user dalam memahami kaidah bahasa indonesia terutama isi dari buku PUEBI, chatbot kami memberikan nuansa pengalaman interaktif dengan ai pintar yang dapat memudahkan user dalam pembelajaran"
+        ]
+      },
+      {
+        "tag": "Menu_1",
+        "patterns": [
+          "1",
+          "1.",
+          "1. Pemakaian Huruf",
+          "Pemakaian Huruf",
+          "pemakaian huruf"
+        ],
+        "responses": [
+          "Terdapat materi tentang Huruf Abjad, Huruf Vokal, Huruf Konsonan, Huruf Diftong, Gabungan Huruf Konsonan, Huruf Kapital, Huruf Miring, dan Huruf Tebal"
+        ]
+      },
+      {
+        "tag": "Huruf_Abjad",
+        "patterns": [
+          "apa itu huruf abjad?",
+          "Apa itu huruf abjad",
+          "huruf abjad",
+          "Huruf abjad"
+        ],
+        "responses": [
+          "Huruf abjad merupakan huruf yang dipakai dalam bahasa indonesia sebagai pendukung pembentukan kalimat bahasa indonesia"
+        ]
+      },
+      {
+        "tag": "Huruf_Abjad2",
+        "patterns": [
+          "berapa huruf abjad dalam bahasa indonesia?",
+          "abjab bahasa indonesia terdiri dari berapa huruf?"
+        ],
+        "responses": [
+          "Abjad dalam bahasa Indonesia terdiri dari 26 huruf "
+        ]
+      },
+      {
+        "tag": "Huruf_Abjad3",
+        "patterns": [
+          "apa saja huruf pada bahasa Indonesia?",
+          "huruf dalam bahasa"
+        ],
+        "responses": [
+          "huruf abjad dalam bahasa yaitu, A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
+        ]
+      },
+      {
+        "tag": "Huruf_Abjad4",
+        "patterns": [
+          "bagaimana pengucapan setiap huruf?",
+          "pengucapan huruf"
+        ],
+        "responses": [
+          "Pengucapan huruf abjad sesuai urutan adalah a, be, ce, de, e, ef, ge, ha, i, je, ka, el, em, en, o, pe, ki, er, es, te, u, ve, we, eks, ye, zet"
+        ]
+      },
+      {
+        "tag": "Huruf_Vokal",
+        "patterns": [
+          "apa itu huruf vokal?",
+          "Apa itu huruf vokal?",
+          "Huruf vokal",
+          "huruf vokal"
+        ],
+        "responses": [
+          "Huruf vokal merupakan huruf yang melambangkan huruf vokal"
+        ]
+      },
+      {
+        "tag": "Huruf_Vokal2",
+        "patterns": [
+          "ada apa saja huruf vokal dalam bahasa indonesia?"
+        ],
+        "responses": [
+          "Huruf vokal dalam bahasa indonesia terdiri dari A, I, U, E, O"
+        ]
+      },
+      {
+        "tag": "Huruf_Vokal3",
+        "patterns": [
+          "ada berapa huruf vokal dalam bahasa?",
+          "jumlah huruf vokal"
+        ],
+        "responses": [
+          "Jumlah huruf vokal dalam Bahasa Indonesia yaitu terdapat 5 huruf"
+         ]
+      },
+      {
+        "tag": "Huruf_Vokal4",
+        "patterns": [
+          "apakah terdapat perbedaan dari pelafalan huruf e?",
+          "perbedaan ucapan dari huruf e"
+        ],
+        "responses": [
+          "Ya, terdapat 3 perbedaan pelafalan huruf e yaitu: di teras, film seru, seri"
+        ]
+      },
+      {
+        "tag": "Huruf_Konsonan",
+        "patterns": [
+          "apa yang dimaksud gabungan huruf konsonan?",
+          "pengertian huruf konsonan",
+          "Apa itu huruf konsonan",
+          "apa itu huruf konsonan",
+          "Huruf konsonan",
+          "huruf konsonan"
+        ],
+        "responses": [
+          "Huruf konsonan adalah huruf yang melambangkan konsonan dalam bahasa Indonesia"
+        ]
+      },
+      {
+        "tag": "Huruf_Konsonan2",
+        "patterns": [
+          "berapa banyak huruf konsonan?",
+          "banyak huruf konsonan"
+        ],
+        "responses": [
+          "Huruf konsonan yang terdapat di dalam Bahasa Indonesia terdiri atas 21 huruf"
+        ]
+      },
+      {
+        "tag": "Huruf_Konsonan3",
+        "patterns": [
+          "apa saja huruf konsonan dalam bahasa indonesia"
+        ],
+        "responses": [
+          "Huruf konsonan yang terdapat di indonesia yaitu b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, dan z."
+        ]
+      },
+      {
+        "tag": "Huruf_Konsonan4",
+        "patterns": [
+          "adakah ketentuan khusus dalam pemakaian huruf konsonan?",
+          "ketentuan khusus huruf konsonan?"
+        ],
+        "responses": [
+          "Ada, yaitu huruf q dan x khusus digunakan untuk nama diri dan keperluan ilmu dan juga huruf x pada posisi awal kata diucapkan [s]."
+        ]
+      },
+      {
+        "tag": "Huruf_Diftong",
+        "patterns": [
+            "apa itu huruf diftong?",
+            "Apa itu huruf diftong",
+            "Huruf diftong",
+            "huruf diftong",
+            "arti huruf diftong"  
+        ],
+        "responses": [
+          "Diftong adalah gabungan dari dua huruf yang menghasilkan bunyi rangkap"
+        ]
+      },
+      {
+        "tag": "huruf_diftong2",
+        "patterns": [
+              "terdiri dari berapa huruf diftong yang ada?",
+              "banyak huruf diftong"
+          ],
+        "responses": [
+            "terdapat 4 huruf diftong dalam bahasa indonesia"
+          ]
+      },
+      {
+        "tag": "huruf_diftong3",
+        "patterns": [
+            "apa saja huruf diftong"
+        ],
+        "responses": [
+          "huruf diftong terdiri dari ai, au, ei, dan oi"
+        ]
+      },
+      {
+        "tag": "huruf_diftong4",
+        "patterns": [
+            "apa contoh kata yang memiliki huruf diftong di posisi awal?",
+            "contoh huruf diftong di posisi awal",
+            "contoh diftong awal"    
+        ],
+        "responses": [
+          "Contoh huruf diftong yang terdapat di posisi awal adalah aileron, autodidak, dan eigendom"
+        ]
+      },
+      {
+        "tag": "huruf_diftong5",
+        "patterns": [
+            "apa contoh kata yang memiliki huruf diftong di posisi tengah?",
+            "contoh huruf diftong di posisi tengah",
+            "contoh diftong tengah"    
+        ],
+        "responses": [
+          "Contoh huruf diftong yang terdapat di posisi tengah adalah balairung, taufik, geiser, dan boikot"
+        ]
+      },
+      {
+        "tag": "huruf_diftong6",
+        "patterns": [
+            "apa contoh kata yang memiliki huruf diftong di posisi akhir?",
+            "contoh huruf diftong di posisi akhir",
+            "contoh diftong akhir"    
+        ],
+        "responses": [
+          "Contoh huruf diftong yang terdapat di posisi akhir adalah pandai, harimau, survei, dan amboi"
+        ]
+      },
+      {
+        "tag": "Gabungan_Huruf_Konsonan",
+        "patterns": [
+              "apa yang dimaksud dengan gabungan huruf konsonan?",
+              "pengertian gabungan huruf konsonan",
+              "Apa itu gabungan huruf konsonan",
+              "apa itu gabungan huruf konsonan",
+              "Gabungan huruf konsonan",
+              "gabungan huruf konsonan"   
+          ],
+        "responses": [
+            "Gabungan huruf konsonan merupakan huruf yang digabungkan menjadi satu kesatuan dan dapat menjadi arti yang berbeda."
+          ]
+      },
+      {
+        "tag": "Gabungan_Huruf_Konsonan2",
+        "patterns": [
+              "apa saja gabungan huruf konsonan dalam bahasa indonesia?",
+              "macam gabungan  huruf konsonan"
+          ],
+        "responses": [
+            "Gabungan huruf konsonan yang terdapat di Bahasa Indonesia adalah kh, ng, ny, dan sy"
+            
+          ]
+      },
+      {
+        "tag": "Gabungan_Huruf_Konsonan3",
+        "patterns": [
+          "apa contoh kata yang memiliki gabungan huruf konsonan di posisi awal?",
+          "contoh gabungan huruf konsonan di posisi awal",
+          "contoh gabungan huruf konsonan awal"  
+        ],
+        "responses": [
+          "Contoh gabungan huruf konsonan yang terdapat di posisi awal adalah khusus, ngarai, nyata, dan syarat"
+        ]
+      },
+      {
+        "tag": "Gabungan_Huruf_Konsonan4",
+        "patterns": [
+          "apa contoh kata yang memiliki gabungan huruf konsonan di posisi tengah?",
+          "contoh gabungan huruf konsonan di posisi tengah",
+          "contoh gabungan huruf konsonan tengah"  
+        ],
+        "responses": [
+          "Contoh gabungan huruf konsonan yang terdapat di posisi tengah adalah akhir, bangun, banyak, dan musyawarah"
+        ]
+      },
+      {
+        "tag": "Gabungan_Huruf_Konsonan5",
+        "patterns": [
+          "apa contoh kata yang memiliki gabungan huruf konsonan di posisi akhir?",
+          "contoh gabungan huruf konsonan di posisi akhir",
+          "contoh gabungan huruf konsonan akhir"  
+        ],
+        "responses": [
+          "Contoh gabungan huruf konsonan yang terdapat di posisi akhir adalah tarihk, senang, dan arasy."
+        ]
+      },
+      {
+        "tag": "Huruf_Kapital",
+        "patterns": [
+              "Apa itu huruf kapital?",
+              "apa itu huruf kapital?",
+              "Huruf kapital",
+              "huruf kapital"
+          ],
+        "responses": [
+            "Huruf kapital dipakai sebagai huruf pertama awal kalimat"
+          ]
+      },
+      {
+        "tag": "Huruf_Kapital2",
+        "patterns": [
+              "contoh penggunakan huruf kapital di awal kalimat",
+              "bagaimana penggunaan huruf kapital di awal kalimat?"
+          ],
+        "responses": [
+            "Apa maksudnya?",
+            "Dia membaca buku.",
+            "Kita harus bekerja keras.",
+            "Pekerjaan itu akan selesai dalam satu jam."
+          ]
+      },
+      {
+        "tag": "Huruf_Kapital3",
+        "patterns": [
+              "contoh penggunakan huruf kapital sebagai huruf pertama unsur nama orang",
+              "bagaimana penggunaan huruf kapital sebagai huruf pertama unsur nama orang?"
+          ],
+        "responses": [
+            "Wage Rudolf Supratman",
+            "Dia membaca buku.",
+            "Dewi Sartika",
+            "Halim Perdanakusumah"
+          ]
+      },
+      {
+        "tag": "Huruf_Miring",
+        "patterns": [
+              "Apa itu huruf miring?",
+              "apa itu huruf miring?",
+              "Huruf miring",
+              "huruf miring"
+          ],
+        "responses": [
+            "Apa maksudnya?",
+            "Dia membaca buku.",
+            "Kita harus bekerja keras.",
+            "Pekerjaan itu akan selesai dalam satu jam."
+          ]
+      },
+      {
+        "tag": "Huruf_miring2",
+        "patterns": [
+              "contoh penggunakan huruf miring",
+              "bagaimana penggunaan huruf miring"
+          ],
+        "responses": [
+            "Saya sudah membaca buku Salah Asuhan karangan Abdoel Moeis",
+            "Majalah Poedjangga Baroe menggelorakan semangat kebangsaan.",
+            "Berita itu muncul dalam surat kabar Cakrawala."
+          ]
+      },
+      {
+        "tag": "Huruf_Tebal",
+        "patterns": [
+              "apa kegunaan huruf tebal dalam bahasa indonesia?",
+              "keguanaan huruf tebal",
+              "Apa itu huruf tebal?",
+              "apa itu huruf tebal?",
+              "huruf tebal",
+              "Huruf tebal"
+          ],
+        "responses": [
+            "terdapat 2 kegunaan huruf tebal dalam bahasa indonesia yaitu huruf tebal dipakai untuk menegaskan bagian tulisan yang sudah ditulis miring dan juga huruf tebal dapat dipakai untuk menegaskan bagian-bagian karangan, seperti judul buku, bab, atau subbab."
+          ]
+      },
+      {
+        "tag": "Menu_2",
+        "patterns": [
+          "2",
+          "2.",
+          "2. Penulisan Kata",
+          "Penulisan Kata",
+          "penulisan kata"
+        ],
+        "responses": [
+          "Terdapat materi tentang Kata Dasar, Kata Berimbunan, Bentuk Ulang, Gabungan Kata, Pemenggalan Kata, Kata Depan, Partikel, Singkatan dan Akronim, Angka dan Bilangan, Kata Ganti, dan Kata Sandang"
+        ]
+      },
+      {
+        "tag": "Penulisan_Kata",
+        "patterns": [
+          "Apa itu penulisan kata?",
+          "apa itu penulisan kata?"
+        ],
+        "responses": [
+          "Penulisan kata adalah proses atau cara menulis yang mempertimbangkan unsur bahasa yang diucapkan atau dituliskan sebagai wujud kesatuan perasaan dan pikiran yang dapat digunakan dalam berbahasa sesuai ejaan yang disempurnakan"
+        ]
+      },
+      {
+        "tag": "Kata_Dasar",
+        "patterns": [
+          "Apa itu kata dasar?",
+          "apa itu kata dasar?",
+          "Kata dasar",
+          "kata dasar"
+        ],
+        "responses": [
+          "Kata dasar adalah kata yang ditulis sebagai satu kesatuan, contohnya adalah Kantor pajak penuh sesak, Saya pergi ke sekolah, Buku itu sangat tebal"
+        ]
+      },
+      {
+        "tag": "Kata_Imbuhan",
+        "patterns": [
+          "Apa itu Kata Imbuhan?",
+          "apa itu kata imbuhan?",
+          "Kata imbuhan",
+          "kata imbuhan"
+        ],
+        "responses": [
+          "Imbuhan (awalan, sisipan, akhiran, serta gabungan awalan dan akhiran) ditulis serangkai dengan bentuk dasarnya. Contohnya adalah berjalan, berkelanjutan, mempermudah, gemetar, lukisan, kemauan, perbaikan. Imbuhan yang diserap dari unsur asing, seperti -isme, -man, -wan, atau -wi, ditulis serangkai dengan bentuk dasarnya. Bentuk terikat (ditulis serangkai dengan kata yang mengikutinya, Contohnya adibusana dan antarkota"
+        ]
+      },
+      {
+        "tag": "Bentuk_Ulang",
+        "patterns": [
+          "apa itu bentuk ulang?",
+          "Apa itu bentuk ulang?",
+          "Bentuk ulang",
+          "bentuk ulang"
+        ],
+        "responses": [
+          "Bentuk ulang ditulis dengan menggunakan tanda hubung (-) diantara unsur-unsurnya, contohnya adalah anak - anak, dan biri - biri "
+        ]
+      },
+      {
+        "tag": "Gabungan_Kata",
+        "patterns": [
+          "Apa itu Gabungan kata?",
+          "apa itu gabungan kata?",
+          "Gabungan kata",
+          "gabungan kata"
+        ],
+        "responses": [
+          "Unsur gabungan kata yang lazim disebut kata majemuk,termasuk istilah khusus, ditulis terpisah., contohnya adalah kambing hitam dan orang tua"
+        ]
+      },
+      {
+        "tag": "Pemenggalan_Kata",
+        "patterns": [
+          "Apa itu pemenggalan kata?",
+          "apa itu pemenggalan kata?",
+          "Pemenggalan kata",
+          "pemenggalan kata"
+        ],
+        "responses": [
+          "Pemenggalan kata adalah kata yang menjadi dasar bentukan kata yang lebih besar. Jenis pemenggalan kata adalah pemenggalan kata pada kata dasar contohnya adalah bu-ah, pan-dai, ba-pak, ap-ril, ul-tra dan bang-krut. Pemenggalan kata turunan sedapat-dapatnya dilakukan di antara bentuk dasar dan unsur pembentuknya, contohnya adalah ber-jalan, me-nu-tup, ge-lem-bung"
+        ]
+      },
+      {
+        "tag": "Kata_Depan",
+        "patterns": [
+          "Apa itu kata depan?",
+          "apa itu kata depan?",
+          "Kata depan",
+          "kata depan"
+        ],
+        "responses": [
+          "Kata depan, seperti di, ke, dan dari, ditulis terpisah dari kata yang mengikutinya. Contohnya adalah dimana dia sekarang dan saya pergi ke sana mencarinya"
+        ]
+       },
+       {
+        "tag": "Partikel",
+        "patterns": [
+          "Apa itu partikel?",
+          "apa itu partikel?",
+          "Partikel",
+          "partikel"
+        ],
+        "responses": [
+          "Partikel -lah, -kah, dan -tah ditulis serangkai dengan kata yang mendahuluinya. Contohnya adalah Bacalah buku itu baik-baik!. Partikel pun ditulis terpisah dari kata yang mendahuluinya. Contohnya adalah Apa pun permasalahan yang muncul, dia dapat mengatasinya dengan bijaksana."
+        ]
+      },
+      {
+        "tag": "Singkatan_Akronim",
+        "patterns": [
+          "Apa itu singkatan dan akronim?",
+          "apa itu singkatan dan akronim?",
+          "Singkatan dan akronim",
+          "singkatan dan akronim"
+        ],
+        "responses": [
+          "Singkatan nama orang, gelar, sapaan, jabatan, atau pangkat diikuti dengan tanda titik pada setiap unsur singkatan itu. Contohnya adalah A.H. Nasution adalah Abdul Haris Nasution, Sdr adalah Saudara, Dan S.P adalah Sarjana Pertanian. Singkatan yang terdiri atas huruf awal setiap kata nama lembaga pemerintah dan ketatanegaraan, lembaga pendidikan, badan atau organisasi, serta nama dokumen resmi ditulis dengan huruf kapital tanpa tanda titik. Contohnya adalah NKRI atau Negara Kesatuan Republik Indonesia, sedangkan Akronim nama diri yang terdiri atas huruf awal setiap kata ditulis dengan huruf kapital tanpa tanda titik. Contohnya adalah BIG atau Badan Informasi Geospasial. Akronim nama diri yang berupa gabungan suku kata atau gabungan huruf dan suku kata dari deret kata ditulis dengan huruf awal kapital. Contohnya adalah Bulog atau Badan Urusan Logistik."
+        ]
+      },
+      {
+        "tag": "Angka_Bilangan",
+        "patterns": [
+          "Apa itu angka dan bilangan?",
+          "apa itu angka dan bilangan?",
+          "Angka dan bilangan",
+          "angka dan bilangan"
+        ],
+        "responses": [
+          "Angka Arab atau angka Romawi lazim dipakai sebagai lambang bilangan atau nomor. Bilangan dalam teks yang dapat dinyatakan dengan satu atau dua kata ditulis dengan huruf, kecuali jika dipakai secara berurutan seperti dalam perincian contohnya mereka menonton drama itu sampai tiga kali."
+        ]
+      },
+      {
+        "tag": "Kata_Ganti",
+        "patterns": [
+          "Apa itu kata ganti?",
+          "apa itu kata ganti?",
+          "Kata ganti",
+          "kata ganti"
+        ],
+        "responses": [
+          "Kata ganti ku- dan kau- ditulis serangkai dengan kata yang mengikutinya, sedangkan -ku, -mu, dan -nya ditulis serangkai dengan kata yang mendahuluinya. Contohnya Rumah itu telah kujual, Majalah ini boleh kaubaca."
+        ]
+      },
+      {
+        "tag": "Kata_Sandang",
+        "patterns": [
+          "Apa itu kata sandang?",
+          "apa itu kata sandang?",
+          "Kata sandang",
+          "kata sandang"
+        ],
+        "responses": [
+          "Kata si dan sang ditulis terpisah dari kata yang mengikutinya. Contohnya Surat itu dikembalikan kepada si pengirim, Ibu itu menghadiahi sang suami kemeja batik."
+        ]
+      },
+      {
+        "tag": "Menu_3",
+        "patterns": [
+          "3",
+          "3.",
+          "3. Pemakaian Tanda Baca",
+          "Pemakaian Tanda Baca",
+          "pemakaian tanda baca"
+        ],
+        "responses": [
+          "Terdapat materi tentang Tanda titik, Tanda Koma, Tanda Titik Koma, Tanda Titik Dua, Tanda Hubung, Tanda Pisah, Tanda Tanya, Tanda Seru, Tanda Elipsis, Tanda Petik, Tanda Petik Tunggal, Tanda Kurung, Tanda Kurung Siku, Tanda Garis Miring, dan Tanda Penyingkat atau Apostrof"
+        ]
+      },
+      {
+        "tag": "Tanda_Titik",
+        "patterns": [
+          "Apa itu tanda titik?",
+          "apa itu tanda titik?",
+          "Tanda titik",
+          "tanda titik"
+        ],
+        "responses": [
+          "Tanda titik dipakai pada akhir kalimat pernyataan"
+        ]
+      },
+      {
+        "tag": "Tanda_Koma",
+        "patterns": [
+          "Apa itu tanda koma?",
+          "apa itu tanda koma?",
+          "Tanda koma",
+          "tanda koma"
+        ],
+        "responses": [
+          "Tanda koma dipakai di antara unsur-unsur dalam suatu pemerincian atau pembilangan"
+        ]
+      },
+      {
+        "tag": "Tanda_Titik_Koma",
+        "patterns": [
+          "Apa itu tanda titik koma?",
+          "apa itu tanda titik koma?",
+          "Tanda titik koma",
+          "tanda titik koma"
+        ],
+        "responses": [
+          "Tanda titik koma dapat dipakai sebagai pengganti kata penghubung untuk memisahkan kalimat setara yang satu dari kalimat setara yang lain di dalam kalimat majemuk."
+        ]
+      },
+      {
+        "tag": "Tanda_Titik2",
+        "patterns": [
+          "Apa itu tanda titik dua?",
+          "apa itu tanda titik dua?",
+          "Tanda titik dua",
+          "tanda titik dua"
+        ],
+        "responses": [
+          "Tanda titik dua dipakai pada akhir suatu pernyataan lengkap yang diikuti pemerincian atau penjelasan"
+        ]
+      },
+      {
+        "tag": "Tanda_Hubung",
+        "patterns": [
+          "Apa itu tanda hubung?",
+          "apa itu tanda hubung?",
+          "Tanda hubung",
+          "tanda hubung"
+        ],
+        "responses": [
+          "Tanda hubung dipakai untuk menandai bagian kata yang terpenggal oleh pergantian baris"
+        ]
+      },
+      {
+        "tag": "Tanda_Pisah",
+        "patterns": [
+          "bagaimana pemakaian tanda pisah?",
+          "tanda pisah"
+
+        ],
+        "responses": [
+          "Pertama, tanda pisah dapat dipakai untuk membatasi penyisipan kata atau kalimat yang memberi penjelasan di luar bangun kalimat. Misalnya Kemerdekaan bangsa itu—saya yakin akan tercapai— diperjuangkan oleh bangsa itu sendiri. Kedua, tanda pisah dapat dipakai juga untuk menegaskan adanya keterangan aposisi atau keterangan yang lain. Misalnya, Soekarno-Hatta—Proklamator Kemerdekaan RI—diabadikan menjadi nama bandar udara internasional. Ketiga, tanda pisah dipakai di antara dua bilangan, tanggal, atau tempat yang berarti sampai dengan atau sampai ke. Misalnya, Tahun 2010—2013."
+        ]
+      },
+      {
+        "tag": "Tanda_Pisah2",
+        "patterns": [
+          "apa itu tanda pisah?",
+          "bagaimana bentuk tanda pisah?"
+        ],
+        "responses": [
+          "— adalah tanda pisah"
+        ]
+      },
+      {
+        "tag": "Tanda_Pisah3",
+        "patterns": [
+          "apa contoh penggunaan tanda pisah —?",
+          "contoh penggunaan tanda pisah",
+          "apa contoh tanda pisah"
+        ],
+        "responses": [
+          "Keberhasilan itu—kita sependapat—dapat dicapai jika kita mau berusaha keras, Jakarta—Bandung"
+        ]
+      },
+      {
+        "tag": "Tanda_Pisah4",
+        "patterns": [
+          "— tanda apakah ini?"
+        ],
+        "responses": [
+          "itu adalah tanda pisah"
+        ]
+      },
+      {
+        "tag": "Tanda_Tanya",
+        "patterns": [
+          "bagaimana pemakaian tanda tanya?",
+          "pemakaian tanda tanya",
+          "Tanda tanya",
+          "tanda tanya"
+        ],
+        "responses": [
+          "Pertama, tanda tanya dipakai pada akhir kalimat tanya. Misalnya, Kapan Hari Pendidikan Nasional diperingati? Kedua, tanda tanya dipakai di dalam tanda kurung untuk menyatakan bagian kalimat yang disangsikan atau yang kurang dapat dibuktikan kebenarannya. Misalnya, Monumen Nasional mulai dibangun pada tahun 1961 (?)"
+        ]
+      },
+      {
+        "tag": "Tanda_Tanya2",
+        "patterns": [
+          "contoh kalimat dengan tanda tanya"
+        ],
+        "responses": [
+          "Siapa yang mencuri bajunya kemarin?"
+        ]
+      },
+      {
+        "tag": "Tanda_Seru",
+        "patterns": [
+          "bagaimana pemakaian tanda seru?",
+          "pemakaian tanda seru",
+          "Tanda seru",
+          "tanda seru"
+        ],
+        "responses": [
+          "Tanda seru dipakai untuk mengakhiri ungkapan atau pernyataan yang berupa seruan atau perintah yang menggambarkan kesungguhan, ketidakpercayaan, atau emosi yang kuat. Misalnya, Alangkah indahnya taman laut di Bunaken!"
+         ]
+      },
+      {
+        "tag": "Tanda_Seru2",
+        "patterns": [
+          "contoh kalimat dengan tanda seru",
+          "bagaimana contoh kalimat dengan tanda seru?",
+          "kalimat dengan tanda seru"
+        ],
+        "responses": [
+          "Alangkah indahnya taman laut di Bunaken!",
+          "Mari kita dukung Gerakan Cinta Bahasa Indonesia!",
+          "Bayarlah pajak tepat pada waktunya!",
+          "Masa! Dia bersikap seperti itu?",
+          "Merdeka!"
+        ]
+      },
+      {
+        "tag": "Tanda_Seru3",
+        "patterns": [
+          "bagaimana bentuk tanda seru?",
+          "bentuk tanda seru"
+        ],
+        "responses": [
+          "! ini adalah bentuk tanda seru"
+        ]
+      },
+      {
+        "tag": "Tanda_Seru4",
+        "patterns": [
+          "! tanda apa?",
+          "! tanda apakah ini?"
+        ],
+        "responses": [
+          "itu adalah tanda seru"
+        ]
+      },
+      {
+        "tag": "Tanda_Elipsis",
+        "patterns": [
+          "bagaimana pemakaian tanda elipsis?",
+          "bagaimana pemakaian tanda (...)?",
+          "tanda ... digunakan untuk apa?",
+          "Tanda elipsis",
+          "tanda elipsis"
+        ],
+        "responses": [
+          "Pertama, tanda elipsis dipakai untuk menunjukkan bahwa dalam suatu kalimat atau kutipan ada bagian yang dihilangkan. Misalnya, penyebab kemerosotan ... akan diteliti lebih lanjut. Kedua, tanda elipsis dipakai untuk menulis ujaran yang tidak selesai dalam dialog. Misalnya, “Menurut saya … seperti … bagaimana, Bu?”. tanda elipsis didahului dan diikuti dengan spasi dan pada akhir kalimat diikuti tanda titik (jumlah titik menjadi empat buah)."
+        ]
+      },
+      {
+        "tag": "Tanda_Elipsis2",
+        "patterns": [
+            "contoh penggunaan tanda elipsis",
+            "contoh penggunaan tanda ...",
+            "bagaimana contoh penggunaan kalimat dengan tanda elipsis?",
+            "penggunaan tanda elipsis dalam kalimat"
+            
+        ],
+        "responses": [
+          "Penyebab kemerosotan ... akan diteliti lebih lanjut.",
+          "Dalam Undang-Undang Dasar 1945 disebutkan bahwa bahasa negara ialah ...",
+          "..., lain lubuk lain ikannya."
+        ]
+      },
+      {
+        "tag": "Tanda_Elipsis3",
+        "patterns": [
+              "bagaimana bentuk tanda elipsis?",
+              "bentuk tanda elipsis",
+              "tanda elipsis"
+              
+          ],
+        "responses": [
+            "... ini adalah bentuk tanda elipsis"
+          ]
+      },
+      {
+        "tag": "Tanda_Elipsis4",
+        "patterns": [
+            "...",
+            "... tanda apakah ini?"
+            
+        ],
+        "responses": [
+          "itu adalah tanda elipisis"
+        ]
+      },
+      {
+        "tag": "Tanda_Petik",
+        "patterns": [
+            "bagaimana pemakaian tanda petik?",
+            "Tanda petik",
+            "tanda petik"
+            
+        ],
+        "responses": [
+          "Pertama, tanda petik dipakai untuk mengapit petikan langsung yang berasal dari pembicaraan, naskah, atau bahan tertulis lain. Misalnya, “Merdeka atau mati!” seru Bung Tomo dalam pidatonya. Kedua, tanda petik dipakai untuk mengapit judul sajak, lagu, film, sinetron, artikel, naskah, atau bab buku yang dipakai dalam kalimat. Misalnya, Sajak “Pahlawanku” terdapat pada halaman 125 buku itu. Ketiga, tanda petik dipakai untuk mengapit istilah ilmiah yang kurang dikenal atau kata yang mempunyai arti khusus. Misalnya, “Tetikus” komputer ini sudah tidak berfungsi."
+        ]
+      },
+      {
+        "tag": "Tanda_Petik2",
+        "patterns": [
+              "contoh penggunaan tanda petik",
+              "contoh penggunaan tanda",
+              "bagaimana contoh penggunaan kalimat dengan tanda petik?",
+              "penggunaan tanda petik dalam kalimat"
+              
+          ],
+        "responses": [
+            "“Merdeka atau mati!” seru Bung Tomo dalam pidatonya.",
+            "“Kerjakan tugas ini sekarang!” perintah atasannya. “Besok akan dibahas dalam rapat.”",
+            "Menurut Pasal 31 Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, “Setiap warga negara berhak memperoleh pendidikan.”",
+            "Sajak “Pahlawanku” terdapat pada halaman 125 buku itu.",
+            "Marilah kita menyanyikan lagu “Maju Tak Gentar”!",
+            "Film “Ainun dan Habibie” merupakan kisah nyata yang diangkat dari sebuah novel.",
+            "Saya sedang membaca “Peningkatan Mutu Daya Ungkap Bahasa Indonesia” dalam buku Bahasa Indonesia Menuju Masyarakat Madani.",
+            "Makalah “Pembentukan Insan Cerdas Kompetitif” menarik perhatian peserta seminar.",
+            "Perhatikan “Pemakaian Tanda Baca” dalam buku Pedoman Umum Ejaan Bahasa Indonesia.",
+            "“Tetikus” komputer ini sudah tidak berfungsi",
+            "Dilarang memberikan “amplop” kepada petugas!"
+          ]
+      },
+      {
+        "tag": "Tanda_Petik_Tunggal",
+        "patterns": [
+              "bagaimana pemakaian tanda petik tunggal?",
+              "bagaimana pemakaian tanda ' '?",
+              "Tanda petik tunggal",
+              "tanda petik tunggal"
+          ],
+        "responses": [
+            "Tanda petik tunggal dipakai untuk mengapit makna, terjemahan, atau penjelasan kata atau ungkapan. Misalnya tergugat berarti 'yang digugat'"
+          ]
+      },
+      {
+        "tag": "Tanda_Petik_Tunggal2",
+        "patterns": [
+          "contoh penggunaan tanda petik tunggal",
+          "contoh penggunaan tanda ' '"  
+        ],
+        "responses": [
+          "tergugat 'yang digugat'",
+          "retina 'dinding mata sebelah dalam'",
+          "noken 'tas khas papua'",
+          "tadulako 'panglima'",
+          "wisdom 'kebijaksanaan'"
+        ]
+      },
+      {
+        "tag": "Tanda_Petik_Tunggal3",
+        "patterns": [
+              "' '"
+          ],
+        "responses": [
+            "tanda petik tunggal"
+          ]
+      },
+      {
+        "tag": "Tanda_Petik_Tunggal4",
+        "patterns": [
+              "bentuk tanda petik tunggal",
+              "bagaimana bentuk tanda petik tunggal?"
+          ],
+        "responses": [
+            "''"
+          ]
+      },
+      {
+        "tag": "Tanda_Kurung",
+        "patterns": [
+              "bagaimana pemakaian tanda kurung?",
+              "bagaimana pemakaian tanda (  )?",
+              "Tanda kurung",
+              "tanda kurung"
+          ],
+        "responses": [
+            "Pertama, tanda kurung dipakai untuk mengapit tambahan keterangan atau penjelasan. Misalnya, Dia memperpanjang surat izin mengemudi (SIM). Kedua, tanda kurung dipakai untuk mengapit keterangan atau penjelasan yang bukan bagian utama kalimat. Misalnya, Sajak Tranggono yang berjudul “Ubud” (nama tempat yang terkenal di Bali) ditulis pada tahun 1962. Ketiga, tanda kurung dipakai untuk mengapit huruf atau kata yang keberadaannya di dalam teks dapat dimunculkan atau dihilangkan. Misalnya, Dia berangkat ke kantor selalu menaiki (bus) Transjakarta. Keempat, Tanda kurung dipakai untuk mengapit huruf atau angka yang digunakan sebagai penanda pemerincian. Misalnya, Faktor produksi menyangkut (a) bahan baku, (b) biaya produksi, dan (c) tenaga kerja."
+          ]
+      },
+      {
+        "tag": "Tanda_Kurung2",
+        "patterns": [
+              "contoh penggunaan tanda kurung",
+              "contoh kalimat dengan tanda kurung"
+          ],
+        "responses": [
+            "Keterangan itu (lihat Tabel 10) menunjukkan arus perkembangan baru pasar dalam negeri.",
+            "Pesepak bola kenamaan itu berasal dari (Kota) Padang.",
+            "Dia berangkat ke kantor selalu menaiki (bus) Transjakarta."
+          ]
+      },
+      {
+        "tag": "Tanda_Kurung3",
+        "patterns": [
+              "( )",
+              "( ) tanda apakah ini?"
+          ],
+        "responses": [
+            "itu adalah tanda kurung"
+          ]
+      },
+      {
+        "tag": "Tanda_Kurung4",
+        "patterns": [
+              "bagaimana bentuk tanda kurung?",
+              "bentuk tanda kurung"
+          ],
+        "responses": [
+            "( )"
+          ]
+      },
+      {
+        "tag": "Tanda_Kurung_Siku",
+        "patterns": [
+              "bagaimana pemakaian tanda kurung siku?",
+              "bagaimana pemakaian tanda [  ]?",
+              "Tanda kurung siku",
+              "tanda kurung siku"
+          ],
+        "responses": [
+            "Pertama, tanda kurung siku dipakai untuk mengapit huruf, kata, atau kelompok kata sebagai koreksi atau tambahan atas kesalahan atau kekurangan di dalam naskah asli yang ditulis orang lain. Misalnya, Sang Sapurba men[d]engar bunyi gemerisik. Kedua, tanda kurung siku dipakai untuk mengapit keterangan dalam kalimat penjelas yang terdapat dalam tanda kurung. Misalnya, persamaan kedua proses itu (perbedaannya dibicarakan di dalam Bab II [lihat halaman 35─38]) perlu dibentangkan di sini."
+          ]
+      },
+      {
+        "tag": "Tanda_Kurung_Siku2",
+        "patterns": [
+              "contoh penggunaan tanda kurung siku",
+              "contoh penggunaan tanda [...]",
+              "bagaimana contoh penggunaan kalimat dengan tanda kurung siku?",
+              "penggunaan tanda kurung siku dalam kalimat"
+          ],
+        "responses": [
+            "Sang Sapurba men[d]engar bunyi gemerisik.",
+            "Penggunaan bahasa dalam karya ilmiah harus sesuai [dengan] kaidah bahasa Indonesia.",
+            "Ulang tahun [Proklamasi Kemerdekaan] Republik Indonesia dirayakan secara khidmat.",
+            "Persamaan kedua proses itu (perbedaannya dibicarakan di dalam Bab II [lihat halaman 35─38]) perlu dibentangkan di sini."
+          ]
+      },
+      {
+        "tag": "Tanda_Garis_Miring",
+        "patterns": [
+              "bagaimana pemakaian tanda garis miring?",
+              "bagaimana pemakaian tanda /?",
+              "Tanda garis miring",
+              "tanda garis miring"
+          ],
+        "responses": [
+            "Pertama, tanda garis miring dipakai dalam nomor surat, nomor pada alamat, dan penandaan masa satu tahun yang terbagi dalam dua tahun takwim. Misalnya, Nomor: 7/PK/II/2013. Kedua, tanda garis miring dipakai sebagai pengganti kata dan, atau, serta setiap. Misalnya, mahasiswa/mahasiswi. Ketiga, tanda garis miring dipakai untuk mengapit huruf, kata, atau kelompok kata sebagai koreksi atau pengurangan atas kesalahan atau kelebihan di dalam naskah asli yang ditulis orang lain."
+          ]
+      },
+      {
+        "tag": "Tanda_Garis_Miring2",
+        "patterns": [
+              "contoh penggunaan tanda garis miring"
+              
+          ],
+        "responses": [
+            "Nomor: 7/PK/II/2013",
+            "Jalan Kramat III/10",
+            "tahun ajaran 2012/2013."
+          ]
+      },
+      {
+        "tag": "Tanda_Garis_Miring3",
+        "patterns": [
+              "/",
+              "/ tanda apakah ini?"
+          ],
+        "responses": [
+            "tanda garis miring"
+          ]
+      },
+      {
+        "tag": "Tanda_Apostrof",
+        "patterns": [
+          "bagaimana pemakaian tanda apostrof?",
+          "pemakaian tanda apostrof",
+          "Tanda Penyingkat atau Apostrof",
+          "Tanda penyingkat atau apostrof",
+          "tanda penyingkat atau apostrof"
+        ],
+        "responses": [
+          "Tanda penyingkat dipakai untuk menunjukkan penghilangan bagian kata atau bagian angka tahun dalam konteks tertentu. Misalnya Dia'kan kusurati. ('kan = akan), 5-2-'13 ('13 = 2013)"
+         ]
+      },
+      {
+        "tag": "Menu_4",
+        "patterns": [
+          "4",
+          "4.",
+          "4. Penulisan Unsur Serapan",
+          "Penulisan Unsur Serapan",
+          "penulisan unsur serapan"
+        ],
+        "responses": [
+          "Dalam perkembangannya bahasa Indonesia menyerap unsur dari berbagai bahasa, baik dari bahasa daerah, seperti bahasa Jawa, Sunda, dan Bali, maupun dari bahasa asing, seperti bahasa Sanskerta, Arab, Portugis, Belanda, Cina, dan Inggris. Berdasarkan taraf integrasinya, unsur serapan dalam bahasa Indonesia dapat dibagi menjadi dua kelompok besar. Pertama, unsur asing yang belum sepenuhnya terserap ke dalam bahasa Indonesia, seperti force majeur, de facto, de jure, dan l'exploitation de l'homme par l'homme. Unsur-unsur itu dipakai dalam konteks bahasa Indonesia, tetapi cara pengucapan dan penulisannya masih mengikuti cara asing. Kedua, unsur asing yang penulisan dan pengucapannya disesuaikan dengan kaidah bahasa Indonesia. Dalam hal ini, penyerapan diusahakan agar ejaannya diubah seperlunya sehingga bentuk Indonesianya masih dapat dibandingkan dengan bentuk asalnya"
+        ]
+      }
+    ]
+  }
